@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!--
     Margin, border, padding 
@@ -33,11 +35,27 @@
 
     Margine
     Segue le stesse regole del padding
-
+    margin auto funziona solo in orizzontale
+    margin: 0 auto; da un margin di 0 sotto e sopra e auto in orizzontale per distribuire lo spazione (infati centra l'elemento)
+    .container: width: valore che ci serve
+                margin: 0 auto; per centrare il contenitore alla pagina
 
     marker: è uno pseudo-elemento (cercare in rete)
+
+    Display
+    elementi in line: se vogliamo darli dimensioni e padding deve diventare inline block
+    elementi in line: non accettano width perchè usano la propria. 
+    Con Display possiamo cambiare il 
+    vertical-align serve per centrare elementi vicini tra di loro INLINE, non si una per centrare un elemento dentro al suo genitore
+    inlinea: elemento inline
+    inline-block: si comporta sia come blocco che come inline
     -->
-    <div class="square border"></div>
+    <div class="container">
+        <div class="square border"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita, odit dolore asperiores facere magni,
+            et adipisci debitis quaerat quod qui mollitia est architecto maiores optio ratione quo voluptas illum.</p>
+    </div>
 
 </body>
+
 </html>
